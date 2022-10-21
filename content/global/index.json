@@ -1,26 +1,26 @@
 {
-  "siteUrl": "microgen.vercel.app",
+  "siteUrl": "medusa-microgen.vercel.app",
   "gtmId": "",
   "favicon": "https://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
-  "desktopWidth": "1200",
-  "backgroundColor": "white",
+  "desktopWidth": "1000",
+  "backgroundColor": "gray-light",
   "colors": {
-    "primary": "#0090FF",
-    "accent1": "#0E4465",
-    "accent2": "#1BBF6E",
-    "accent3": "#2DD0DB",
-    "accent4": "#00D0DB",
+    "primary": "#D55234",
+    "accent1": "#EAAC03",
+    "accent2": "#D8DF14",
+    "accent3": "#33A627",
+    "accent4": "#285AB7",
     "white": "#FFFFFF",
-    "grayLight": "#E8E8EF",
-    "gray": "#B0B0BF",
-    "grayDark": "#7B7A80",
-    "black": "#000000"
+    "grayLight": "#F0F0F0",
+    "gray": "#C8C8D1",
+    "grayDark": "#7D8196",
+    "black": "#0D1138"
   },
   "fonts": {
-    "font1": "Inter:wght@400;700",
-    "font2": "Archivo:wght@400;700",
-    "font3": "Rufina:wght@400;700",
-    "font4": "IBM Plex Mono:wght@400;700"
+    "font1": "Charter",
+    "font2": "Open Sans:wght@400;700",
+    "font3": "Open Sans:wght@300;500",
+    "font4": "Orbitron:wght@900"
   },
   "sizeLeading": {
     "textXs": "12/20",
@@ -28,24 +28,26 @@
     "textMd": "16/28",
     "textLg": "18/34",
     "textXl": "24/32",
-    "text2xl": "34/42",
-    "text3xl": "28/40",
-    "text4xl": "32/44",
-    "text5xl": "39/48",
-    "text6xl": "48/48",
-    "text7xl": "72/84",
-    "text8xl": "96/120"
+    "text2xl": "28/34",
+    "text3xl": "32/40",
+    "text4xl": "36/44",
+    "text5xl": "40/48",
+    "text6xl": "48/60",
+    "text7xl": "80/100",
+    "text8xl": "100/120"
   },
   "buttons": {
-    "primaryFill": "bg-primary",
+    "primaryFill": "bg-white opacity-100",
     "primaryBorder": "border-accent3 border-r-0",
-    "primaryTypography": "text-white font-2 text-sm mb-0 font-bold",
-    "primaryPadding": "pt-2.5 pb-2.5 pr-6 pl-6",
-    "primaryRounded": "rounded",
+    "primaryTypography": "text-black font-1 text-xl mb-0 ",
+    "primaryPadding": "pt-5 pb-5 pr-16 pl-16",
+    "primaryRounded": "rounded-full",
+    "secondaryFill": " opacity-100",
     "secondaryBorder": "border-white border-2",
     "secondaryTypography": "text-white undefined text-sm undefined font-bold",
     "secondaryPadding": "pt-2 pb-2 pr-6 pl-6",
     "secondaryRounded": "rounded-md",
+    "minorFill": " opacity-100",
     "minorBorder": "border-white border-0",
     "minorTypography": "text-white undefined text-sm undefined font-bold",
     "minorPadding": "pt-2 pb-2 pr-6 pl-6",
@@ -55,30 +57,14 @@
     "color": "white"
   },
   "logo": {
-    "logoType": "Microgen",
+    "logoType": "",
     "logoTypeStyle": "text-white undefined text-base undefined font-bold",
-    "image": "http://res.cloudinary.com/protocolai/image/upload/v1646088242/cryptonet/protocol-logo_ewn4sv.png",
+    "image": "",
     "imageWidth": "48",
     "imageHeight": "48",
     "imageMargin": "24"
   },
   "nav": {
-    "navItems": [
-      {
-        "label": "Sub Nav",
-        "link": "",
-        "subNavItems": [
-          {
-            "label": "Option 1",
-            "link": "/"
-          },
-          {
-            "label": "Option 2",
-            "link": "/"
-          }
-        ]
-      }
-    ],
     "navAlignment": "text-right",
     "navTypeStyle": "text-white font-1 text-base mb-0 ",
     "navBackgroundColor": "bg-primary opacity-100",
@@ -94,11 +80,11 @@
         "labelStyles": "text-black undefined text-sm mb-0 ",
         "headlineStyles": "text-black undefined text-5xl mb-0 ",
         "subheadStyles": "text-black undefined text-3xl mb-0 ",
-        "textStyles": "text-white undefined text-sm mb-0 ",
+        "textStyles": "text-black undefined text-base mb-0 ",
         "contentOrder": "labelHeadingsContent"
       },
       "background": {
-        "fillStyles": "bg-primary"
+        "fillStyles": " opacity-100"
       },
       "label": "",
       "headline": "",

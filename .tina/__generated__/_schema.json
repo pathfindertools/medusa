@@ -591,6 +591,10 @@
                   "value": "Chakra Petch:wght@400;700"
                 },
                 {
+                  "label": "Charter",
+                  "value": "Charter"
+                },
+                {
                   "label": "Cinzel Heavy",
                   "value": "Cinzel:wght@900"
                 },
@@ -1813,10 +1817,6 @@
                 {
                   "label": "Suez One",
                   "value": "Suez One:wght@400"
-                },
-                {
-                  "label": "Suisse Intl",
-                  "value": "Suisse Intl"
                 },
                 {
                   "label": "Syne Mono",
@@ -2318,6 +2318,10 @@
                   "value": "Chakra Petch:wght@400;700"
                 },
                 {
+                  "label": "Charter",
+                  "value": "Charter"
+                },
+                {
                   "label": "Cinzel Heavy",
                   "value": "Cinzel:wght@900"
                 },
@@ -3540,10 +3544,6 @@
                 {
                   "label": "Suez One",
                   "value": "Suez One:wght@400"
-                },
-                {
-                  "label": "Suisse Intl",
-                  "value": "Suisse Intl"
                 },
                 {
                   "label": "Syne Mono",
@@ -4045,6 +4045,10 @@
                   "value": "Chakra Petch:wght@400;700"
                 },
                 {
+                  "label": "Charter",
+                  "value": "Charter"
+                },
+                {
                   "label": "Cinzel Heavy",
                   "value": "Cinzel:wght@900"
                 },
@@ -5267,10 +5271,6 @@
                 {
                   "label": "Suez One",
                   "value": "Suez One:wght@400"
-                },
-                {
-                  "label": "Suisse Intl",
-                  "value": "Suisse Intl"
                 },
                 {
                   "label": "Syne Mono",
@@ -5772,6 +5772,10 @@
                   "value": "Chakra Petch:wght@400;700"
                 },
                 {
+                  "label": "Charter",
+                  "value": "Charter"
+                },
+                {
                   "label": "Cinzel Heavy",
                   "value": "Cinzel:wght@900"
                 },
@@ -6994,10 +6998,6 @@
                 {
                   "label": "Suez One",
                   "value": "Suez One:wght@400"
-                },
-                {
-                  "label": "Suisse Intl",
-                  "value": "Suisse Intl"
                 },
                 {
                   "label": "Syne Mono",
@@ -13543,6 +13543,9 @@
           "list": true,
           "name": "blocks",
           "label": "Sections",
+          "ui": {
+            "component": "sectionListItems"
+          },
           "templates": [
             {
               "name": "feature",
