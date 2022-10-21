@@ -149,18 +149,18 @@ blocks:
     headline: Status
     subhead: ''
     body: >
-      Currently Medusa is in heavy development phase, yet we already have a
-      testnet deployed on Arbitrum Goerli, check out the
-      [demo](https://demo.medusanet.xyz) !
+      Currently Medusa is in heavy development phase, yet we already have an
+      alphanet, features complete, deployed on Arbitrum Goerli, check out the
+      [demo](https://demo.medusanet.xyz) !&#x20;
 
 
       Medusa aims to deploy its tentacles on many chains, including Ethereum &
       Filecoin during the coming months.&#x20;
 
 
-      As well, Medusa aims to expands its use cases,  such as providing public
-      decryption (can use for timelock encryption where everyone can read after
-      a specified time, or sealed bid auctions).
+      As well, starting Q1'23, Medusa will expand its use cases,  such as
+      providing public decryption (can use for timelock encryption where
+      everyone can read after a specified time, or sealed bid auctions).
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
