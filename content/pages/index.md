@@ -220,7 +220,7 @@ blocks:
         link: 'https://discord.com/cryptonet'
     _template: textCards
 meta:
-  pageTitle: Microgen
-  pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.
+  pageTitle: Medusa
+  pageDescription: Simple programmatic access control onchain backed by cryptography
 ---
 
