@@ -54,6 +54,9 @@ blocks:
 
       Medusa network relies on threshold cryptography to let smart contracts
       control a private key without anyone knowing it.
+
+
+      Check out the demo on Arbitrum testnet !
     buttons:
       - label: Demo
         link: 'https://demo.medusanet.xyz'
