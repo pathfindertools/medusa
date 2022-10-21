@@ -177,8 +177,8 @@ blocks:
     subhead: ''
     body: >
       Medusa is being built by experts in threshold cryptography, inside the
-      cryptonet team at Protocol Labs, building decentralized protocol for the
-      future of web3.
+      crypto at Protocol Labs, building decentralized protocol for the future of
+      web3.
     _template: feature
   - style:
       textAlignment: text-center
