@@ -176,7 +176,7 @@ export const Header = ({
         </div>
 
         {/* Mobile Nav */}
-        <div className={`${sectionClasses} hidden md:block h-screen fixed z-40 top-0 left-0 right-0`}>
+        {/* <div className={`${sectionClasses} hidden md:block h-screen fixed z-40 top-0 left-0 right-0`}>
           <div style={backgroundStyles} className={`${backgroundClasses} ${background} transition duration-400 absolute w-full h-screen -z-1`}></div>
           <div className={`w-full md:p-5`}>
             <Logo className="absolute top-4 left-4 hidden" />
@@ -213,7 +213,7 @@ export const Header = ({
             </ul>
           </div>
           
-        </div>
+        </div> */}
       </>
     </section>
   );
