@@ -164,7 +164,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
-      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-11 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -178,8 +178,8 @@ blocks:
     body: >
       Medusa is being built by experts in threshold cryptography, inside the
       [cryptonet team](https://cryptonet.org) at [Protocol
-      Labs](https://protocol.ai), building decentralized protocol for the future
-      of web3.
+      Labs](https://protocol.ai), building decentralized protocols for the
+      future of web3.
     _template: feature
   - style:
       textAlignment: text-center
@@ -209,7 +209,7 @@ blocks:
       - headline: We're Hiring
         subhead: ''
         text: ''
-        link: '#'
+        link: 'https://boards.greenhouse.io/protocollabs'
       - headline: Contact Us
         subhead: ''
         text: ''
