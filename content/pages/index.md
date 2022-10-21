@@ -20,7 +20,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center items-center-vertical '
-      padding: 'pt-0 pb-14 pr-10 pl-10 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
+      padding: 'pt-0 pb-7 pr-10 pl-10 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-3/4 min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
