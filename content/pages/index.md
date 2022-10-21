@@ -1,8 +1,8 @@
 ---
 blocks:
   - style:
-      alignment: 'flex-col-reverse items-center items-center-vertical '
-      padding: pt-20 pb-16 pr-10 pl-10
+      alignment: flex-col-reverse items-center items-center-vertical gap-4
+      padding: pt-9 pb-10 pr-10 pl-10
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -20,7 +20,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center items-center-vertical '
-      padding: 'pt-0 pb-20 pr-10 pl-10 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
+      padding: 'pt-0 pb-14 pr-10 pl-10 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-3/4 min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -35,7 +35,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
-      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-14 sm:pb-0 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-9 pr-10 pl-10 sm:pt-14 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -47,13 +47,8 @@ blocks:
     headline: What is it?
     subhead: ''
     body: >
-      Medusa enables to dapp to write their access control rules using their
-      native language and rely on Medusa for delegating access to
-      contents.&#x20;
-
-
-      Medusa network relies on threshold cryptography to let smart contracts
-      control a private key without anyone knowing it.
+      Medusa enables to dapp to write their access control rules natively and
+      rely on Medusa for delegating access to encrypted contents.&#x20;
 
 
       Check out the demo on Arbitrum testnet !
@@ -64,7 +59,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
-      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-5 sm:pb-24 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-9 pr-10 pl-10 sm:pt-5 sm:pb-24 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -76,21 +71,17 @@ blocks:
     headline: Use Cases
     subhead: ''
     body: >
-      Medusa allows a smart contract to control a private key and decrypts
-      content for specific readers on demand.
+      Medusa is meant to sit below your app to delegate access to encrypted
+      contents: private mailing list, payable contents, NFT gated contents, etc.
 
 
       Alice can encrypt its latest discovery, submit the encryption to her smart
       contract that defines precisely the rules for anyone to read it (holder of
-      this NFT, paid X eth...).&#x20;
-
-
-      At any point in time in the future, if Alice enabled it, Bob can get back
-      an encrypted message that only him can decrypt from Medusa.
+      this NFT, paid X eth...). &#x20;
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center items-start-vertical '
-      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-9 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -111,12 +102,16 @@ blocks:
       Developers don’t need any extra tooling to start using it.
 
 
-      Simply use the deployed Medusa contract in your application and you're
+      Dapps can use the deployed Medusa contract in side their contracts and are
       good to go.
+
+
+      Clients can use the Typescrit Medusa SDK library to locally encrypt and
+      decrypt content but do not need to connect to any external endpoints!
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
-      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-9 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -154,13 +149,18 @@ blocks:
     headline: Status
     subhead: ''
     body: >
-      Medusa aims to expands its use cases, using the same technology, such as
-      timelock encryption (public decryption where everyone can read after a
-      specified time).
+      Currently Medusa is in heavy development phase, yet we already have a
+      testnet deployed on Arbitrum Goerli, check out the
+      [demo](https://demo.medusanet.xyz) !
 
-      This project is at an early stage but we have a demo working already on
-      Goerli ethereum testnet at
-      [demo.medusanet.xyz](http://demo.medusanet.xyz), check it out!
+
+      Medusa aims to deploy its tentacles on many chains, including Ethereum &
+      Filecoin during the coming months.&#x20;
+
+
+      As well, Medusa aims to expands its use cases,  such as providing public
+      decryption (can use for timelock encryption where everyone can read after
+      a specified time, or sealed bid auctions!).
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
