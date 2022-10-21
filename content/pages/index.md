@@ -137,7 +137,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
-      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
+      padding: 'pt-10 pb-9 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
       labelStyles: 'text-black font-1 text-sm mb-0 '
@@ -160,7 +160,7 @@ blocks:
 
       As well, Medusa aims to expands its use cases,  such as providing public
       decryption (can use for timelock encryption where everyone can read after
-      a specified time, or sealed bid auctions!).
+      a specified time, or sealed bid auctions).
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
