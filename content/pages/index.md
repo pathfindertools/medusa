@@ -213,7 +213,7 @@ blocks:
       - headline: Contact Us
         subhead: ''
         text: ''
-        link: ''
+        link: 'mailto:info@medusanet.xyz'
       - headline: Join Us On Discord
         subhead: ''
         text: ''
