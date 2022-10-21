@@ -109,6 +109,10 @@ blocks:
     body: >
       Medusa is a smart contract that anyone can use in the stack of their app.
       Developers don’t need any extra tooling to start using it.
+
+
+      Simply use the deployed Medusa contract in your application and you're
+      good to go.
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
