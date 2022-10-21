@@ -213,11 +213,11 @@ blocks:
       - headline: Contact Us
         subhead: ''
         text: ''
-        link: '#'
+        link: ''
       - headline: Join Us On Discord
         subhead: ''
         text: ''
-        link: '#'
+        link: 'https://discord.com/cryptonet'
     _template: textCards
 meta:
   pageTitle: Microgen
