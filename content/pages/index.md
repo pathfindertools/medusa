@@ -30,7 +30,7 @@ blocks:
       contentOrder: labelHeadingsContent
     label: ''
     headline: ''
-    subhead: Simple programmatic access control onchain backed by cryptographic proofs
+    subhead: Simple programmatic access control onchain backed by cryptography
     body: ''
     _template: feature
   - style:
