@@ -222,5 +222,7 @@ blocks:
 meta:
   pageTitle: Medusa
   pageDescription: Simple programmatic access control onchain backed by cryptography
+  siteImageSrc: >-
+    https://res.cloudinary.com/protocolai/image/upload/v1666382062/medusa_cropped_title_t9jy3p.svg
 ---
 
