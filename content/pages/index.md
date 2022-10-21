@@ -47,13 +47,16 @@ blocks:
     headline: What is it?
     subhead: ''
     body: >
-      Medusa enables to dapp to write access control rules in their own
-      application and rely on Medusa for delegating access to contents. Medusa
-      relies on threshold cryptography to let smart contracts control a private
-      key without anyone knowing it.
+      Medusa enables to dapp to write their access control rules using their
+      native language and rely on Medusa for delegating access to
+      contents.&#x20;
+
+
+      Medusa network relies on threshold cryptography to let smart contracts
+      control a private key without anyone knowing it.
     buttons:
       - label: Demo
-        link: /
+        link: 'https://demo.medusanet.xyz'
         type: primary
     _template: feature
   - style:
