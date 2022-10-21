@@ -77,11 +77,16 @@ blocks:
     subhead: ''
     body: >
       Medusa allows a smart contract to control a private key and decrypts
-      content for specific readers on demand: Alice can encrypt its latest
-      discovery, and define precily using its regular toolings the rules for
-      anyone to read it (holder of this NFT, stake X amount etc). At any point
-      in time in the future, Bob can get back an encrypted message that only him
-      can decrypt from Medusa.
+      content for specific readers on demand.
+
+
+      Alice can encrypt its latest discovery, submit the encryption to her smart
+      contract that defines precisely the rules for anyone to read it (holder of
+      this NFT, paid X eth...).&#x20;
+
+
+      At any point in time in the future, if Alice enabled it, Bob can get back
+      an encrypted message that only him can decrypt from Medusa.
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center items-start-vertical '
