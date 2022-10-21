@@ -1,198 +1,208 @@
 ---
 blocks:
   - style:
-      alignment: 'flex-row-reverse items-center items-center-vertical '
-      padding: pt-48 pb-20 pr-20 pl-20
-      featureImage: wpx-499 hpx- ml-auto
-      featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-white font-2 text-xl mb-0 font-bold
-      headlineStyles: text-primary font-1 text-6xl mb-0 font-bold
-      subheadStyles: text-gray font-1 text-xl mb-7 font-bold
-      textStyles: 'text-white font-1 text-lg mb-11 '
+      alignment: 'flex-col-reverse items-center items-center-vertical '
+      padding: pt-20 pb-16 pr-10 pl-10
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-7xl mb-0 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
-    background:
-      fillStyles: from-accent1 to-black bg-gradient-to-br
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1649882497/microgen/Hall_of_Fame_grccee_k39etu.png
-      alt: Illustration of space shuttles
+        https://res.cloudinary.com/protocolai/image/upload/v1666373408/medusa/medusa-logo_wwpiuj.svg
     label: ''
-    headline: Microgen
-    subhead: A site builder for Web 3.0
-    body: |
-      Make [modern web 3.0](#) ready websites with a real-time visual editor.
+    headline: Medusa
+    subhead: ''
+    body: ''
+    _template: feature
+  - style:
+      alignment: 'flex-col-reverse items-center items-center-vertical '
+      padding: 'pt-0 pb-20 pr-10 pl-10 sm:pt-0 sm:pb-0 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
+      featureContent: w-3/4 min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-0 '
+      subheadStyles: text-black font-1 text-2xl mb-0 font-bold
+      textStyles: 'text-black font-1 undefined mb-0 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: ''
+    subhead: Simple programmatic access control onchain backed by cryptographic proofs
+    body: ''
+    _template: feature
+  - style:
+      alignment: 'flex-col items-center items-start-vertical '
+      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-14 sm:pb-0 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-black font-1 text-2xl mb-10 font-bold
+      subheadStyles: 'text-black font-1 text-2xl mb-0 '
+      textStyles: 'text-black font-1 text-xl mb-16 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: What is it?
+    subhead: ''
+    body: >
+      Medusa enables to dapp to write access control rules in their own
+      application and rely on Medusa for delegating access to contents. Medusa
+      relies on threshold cryptography to let smart contracts control a private
+      key without anyone knowing it.
     buttons:
-      - label: Get Started
-        link: 'https://github.com/pathfindertools/microgen'
+      - label: Demo
+        link: /
         type: primary
     _template: feature
   - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-20 pb-20 pr-20 pl-20
-      contentWidth: w-full
-      columns: '2'
-      labelStyles: text-black font-1 text-xl mb-0 font-bold
-      headlineStyles: text-white undefined text-5xl mb-11 font-bold
-      subheadStyles: text-black undefined text-3xl mb-0 font-bold
-      textStyles: text-black undefined text-lg mb-0 font-bold
+      alignment: 'flex-col items-center items-start-vertical '
+      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-5 sm:pb-24 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-black font-1 text-2xl mb-10 font-bold
+      subheadStyles: 'text-black font-1 text-2xl mb-0 '
+      textStyles: 'text-black font-1 text-xl mb-0 '
       contentOrder: labelHeadingsContent
-    cardStyle:
-      fillStyles: bg-accent1 opacity-100
-      padding: pt-4 pb-4 pr-5 pl-7
-      borderStyles: border-primary border-3
-      labelStyles: 'text-black undefined text-sm mb-0 '
-      headlineStyles: text-primary font-1 text-xl mb-2 font-bold
-      subheadStyles: 'text-black undefined text-lg mb-0 '
-      textStyles: 'text-gray-light undefined text-lg mb-0 '
-      buttonType: primary
-    background:
-      fillStyles: from-black to-accent1 bg-gradient-to-bl
     label: ''
-    headline: Features
+    headline: Use Cases
     subhead: ''
-    body: ''
-    items:
-      - headline: Deploy Quickly
-        subhead: ''
-        text: >
-          Get a website complete with a visual CMS deployed in less than an hour
-          on your choice of static host.
-        link: ye
-        buttonLabel: ''
-      - headline: Modern Features
-        subhead: ''
-        text: >
-          Responsive design, open graph social sharing and google analytics on
-          every site.
-      - headline: Custom Design
-        subhead: ''
-        text: >
-          Customize the look and feel of your site with a realtime visual
-          editor, without writing a single line of code.
-      - headline: Git Based
-        subhead: ''
-        text: |
-          Version controlled content and design.
-    navigationLabel: Features
-    _template: textCards
+    body: >
+      Medusa allows a smart contract to control a private key and decrypts
+      content for specific readers on demand: Alice can encrypt its latest
+      discovery, and define precily using its regular toolings the rules for
+      anyone to read it (holder of this NFT, stake X amount etc). At any point
+      in time in the future, Bob can get back an encrypted message that only him
+      can decrypt from Medusa.
+    _template: feature
+  - style:
+      alignment: 'flex-col-reverse items-center items-start-vertical '
+      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-black font-1 text-2xl mb-10 font-bold
+      subheadStyles: 'text-black font-1 text-2xl mb-0 '
+      textStyles: >-
+        text-black font-1 text-xl mb-16  sm:text-black sm:font-1 sm:text-xl
+        sm:mb-5 
+      contentOrder: labelHeadingsContent
+    image:
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1666373348/medusa/medusa-code-sample_pqjbpk.svg
+    label: ''
+    headline: Developer Friendly
+    subhead: ''
+    body: >
+      Medusa is a smart contract that anyone can use in the stack of their app.
+      Developers don’t need any extra tooling to start using it.
+    _template: feature
+  - style:
+      alignment: 'flex-col items-center items-start-vertical '
+      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-black font-1 text-2xl mb-10 font-bold
+      subheadStyles: 'text-black font-1 text-2xl mb-0 '
+      textStyles: 'text-black font-1 text-xl mb-16 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: Technology
+    subhead: ''
+    body: >
+      The technology Medusa is using is based on threshold cryptography which a
+      fantastic technique to decentralize any cryptographic operations. The
+      secret key is shared between multiple participants and no one knows it.
+      This allows to encrypt a message towards Medusa without no one being able
+      to reveal it. Medusa then re-encrypts this message to a specific recipient
+      dictacted by onchain events. Everything is backed by cryptographic proofs
+      to ensure integrity and privacy of the content.
+    buttons:
+      - label: Full Documentation Project
+        link: /
+        type: primary
+    _template: feature
+  - style:
+      alignment: 'flex-col items-center items-start-vertical '
+      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-0 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-black font-1 text-2xl mb-10 font-bold
+      subheadStyles: 'text-black font-1 text-2xl mb-0 '
+      textStyles: 'text-black font-1 text-xl mb-0 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: Status
+    subhead: ''
+    body: >
+      Medusa aims to expands its use cases, using the same technology, such as
+      timelock encryption (public decryption where everyone can read after a
+      specified time).
+
+      This project is at an early stage but we have a demo working already on
+      Goerli ethereum testnet at
+      [demo.medusanet.xyz](http://demo.medusanet.xyz), check it out!
+    _template: feature
+  - style:
+      alignment: 'flex-col items-center items-start-vertical '
+      padding: 'pt-10 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-black font-1 text-2xl mb-10 font-bold
+      subheadStyles: 'text-black font-1 text-2xl mb-0 '
+      textStyles: 'text-black font-1 text-xl mb-0 '
+      contentOrder: labelHeadingsContent
+    label: ''
+    headline: Team
+    subhead: ''
+    body: >
+      Medusa is being built by experts in threshold cryptography, inside the
+      cryptonet team at Protocol Labs, building decentralized protocol for the
+      future of web3.
+    _template: feature
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: pt-7 pb-10 pr-0 undefined
-      width: normal
-      labelStyles: text-black undefined text-xl mb-0 font-bold
-      headlineStyles: text-white undefined text-6xl mb-3 font-bold
-      subheadStyles: text-black undefined text-3xl mb-0 font-bold
-      textStyles: text-black undefined text-lg mb-0 font-bold
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-primary
-    label: ''
-    headline: Learn More
-    subhead: ''
-    body: ''
-    buttons:
-      - label: Get Started
-        link: 'https://github.com/filecoin-project/microgen'
-        type: secondary
-    _template: banner
-  - style:
-      minHeight: min-h-0
-      fullWidth: false
-      padding: pt-10 pb-10 pr-20 pl-20
-    background:
-      fillStyles: bg-black
-    markup: <p class="text-white">I am an embed</p>
-    navigationLabel: Embed
-    _template: embed
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-14 pb-20 pr-20 pl-20
+      padding: pt-10 pb-10 pr-10 pl-10
       contentWidth: w-full
-      columns: '2'
-      labelStyles: text-black undefined text-xl mb-0 font-bold
-      headlineStyles: text-white undefined text-6xl mb-10 font-bold
-      subheadStyles: text-black undefined text-3xl mb-0 font-bold
-      textStyles: text-black undefined text-lg mb-0 font-bold
+      columns: '3'
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: 'text-black font-1 text-5xl mb-0 '
+      subheadStyles: 'text-black font-1 text-3xl mb-0 '
+      textStyles: 'text-black font-1 undefined mb-0 '
       contentOrder: labelHeadingsContent
     cardStyle:
-      fillStyles: bg-primary opacity-100
-      padding: pt-5 pb-5 pr-5 pl-5
-      borderStyles: border-white border-0
-      imageStyles: ' undefined undefined mb-0'
-      labelStyles: 'text-white undefined text-sm mb-0 '
-      headlineStyles: 'text-white undefined text-2xl mb-0 '
-      subheadStyles: 'text-white undefined text-lg mb-0 '
-      textStyles: 'text-white undefined undefined mb-0 '
-      buttonType: secondary
-    background:
-      fillStyles: bg-accent1
+      fillStyles: ' opacity-100'
+      padding: pt-0 pb-0 pr-0 pl-0
+      borderStyles: border-gray border-0
+      labelStyles: 'text-black font-1 text-sm mb-0 '
+      headlineStyles: text-black font-1 text-2xl mb-0 font-bold
+      subheadStyles: 'text-black font-1 undefined mb-0 '
+      textStyles: 'text-black font-1 text-sm mb-0 '
+      buttonType: primary
     label: ''
-    headline: Made with Microgen
+    headline: ''
     subhead: ''
     body: ''
     items:
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799687/microgen/sustainable-blockchain_dqbwkm.jpg
-        headline: Sustainable Blockchain Summit
-        text: >
-          Two days of talks, workshops and discussions on how we can work
-          together to develop and build greener blockchain solutions.
-        link: 'https://sbs.tech/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799682/microgen/consensus-factory_g7ol2z.jpg
-        headline: 'Consensus Factory '
-        text: >
-          Consensus is at the heart of decentralised systems, having taken
-          centre stage with the introduction of Nakamoto’s Proof-of-Work (PoW)
-          algorithm.
-        link: 'https://consensus-factory.io/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799690/microgen/vector-commitment_i0nrao.jpg
-        headline: Vector Commitment Day
-        text: >
-          Vector commitments are powerful primitives that find applications in
-          many blockchains protocols. The goal of this workshop is to survey the
-          state of the art in research.
-        link: 'https://cryptonet.vercel.app/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1652799685/microgen/large-data_ulkv86.jpg
-        headline: Filecoin Large Data
+      - headline: We're Hiring
         subhead: ''
-        text: "[Filecoin](https://filecoin.io/)\_is an open Web3 alternative to cloud storage, with better interoperability and larger capacity at a lower cost.\n"
-        link: 'https://largedata.filecoin.io/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1649882496/microgen/hackathons_z7pwah_ulntqb.png
-        headline: Hackathons
+        text: ''
+        link: '#'
+      - headline: Contact Us
         subhead: ''
-        text: >
-          With Filecoin and IPFS, we empower developers and entrepreneurs to
-          solve significant problems and ship innovative applications.
-        link: 'https://hackathons.filecoin.io/'
-        buttonLabel: Visit Site
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1649882497/microgen/asia-season_sn2gv8_bj7ovk.png
-        headline: Asia Hackathon Season
+        text: ''
+        link: '#'
+      - headline: Join Us On Discord
         subhead: ''
-        text: >
-          Join us on a journey across the universe of Filecoin and IPFS across
-          four distinct hackathon events.
-        link: 'https://hackathons.filecoin.io/asia-hackathon-season.html'
-        buttonLabel: Visit Site
-    navigationLabel: Made with Microgen
-    _template: photoCards
+        text: ''
+        link: '#'
+    _template: textCards
 meta:
   pageTitle: Microgen
   pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.

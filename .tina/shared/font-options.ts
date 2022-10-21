@@ -1,4 +1,4 @@
-export const fontOptions: {label: string, value: string}[] = [
+export const fontOptions: { label: string, value: string }[] = [
   { "label": "ABeeZee", "value": "ABeeZee:wght@400" },
   { "label": "Abel", "value": "Abel:wght@400" },
   { "label": "Abhaya Libre Heavy", "value": "Abhaya Libre:wght@800" },
@@ -77,6 +77,7 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Caudex", "value": "Caudex:wght@400;700" },
   { "label": "Chakra Petch Light", "value": "Chakra Petch:wght@300;500" },
   { "label": "Chakra Petch", "value": "Chakra Petch:wght@400;700" },
+  { "label": "Charter", "value": "Charter" },
   { "label": "Cinzel Heavy", "value": "Cinzel:wght@900" },
   { "label": "Cinzel", "value": "Cinzel:wght@400;700" },
   { "label": "Cormorant Garamond Light", "value": "Cormorant Garamond:wght@300;500" },
@@ -383,7 +384,6 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Spectral Light", "value": "Spectral:wght@300;500" },
   { "label": "Spectral", "value": "Spectral:wght@400;700" },
   { "label": "Suez One", "value": "Suez One:wght@400" },
-  { "label": "Suisse Intl", "value": "Suisse Intl" },
   { "label": "Syne Mono", "value": "Syne Mono:wght@400" },
   { "label": "Tahoma", "value": "Tahoma" },
   { "label": "Tajawal Heavy", "value": "Tajawal:wght@900" },

@@ -179,7 +179,6 @@ export const Feature = ({ data, parentField = '' }) => {
   const gapClass = getWordWith(style.alignment, 'gap-') || ''
   const mobileGapClass = getWordWith(style.alignment, 'sm:gap-') || ''
   const alignmentNoGapClasses = style.alignment.replace(gapClass, '').replace(mobileGapClass, '')
-  console.log(alignmentNoGapClasses)
 
   return (
     <Section background={data.background} navigationLabel={data.navigationLabel}>

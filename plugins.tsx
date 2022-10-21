@@ -10,8 +10,44 @@ import RuledTitle from './components/tina/RuledTitle'
 import SelectField from './components/tina/SelectField'
 import TypeControl from './components/tina/TypeControl'
 import TypeSizeControl from './components/tina/TypeSizeControl'
-import { TextField, GroupListField } from 'tinacms'
+import { TextField, GroupListField, BlocksFieldPlugin } from 'tinacms'
 
+export const SectionListItemsPlugin = {
+  ...BlocksFieldPlugin,
+  Component: (props) => {
+    const itemProps = (item) => {
+      const templateNames = {
+        feature: 'Feature',
+        tailwindFeature: 'Feature TW',
+        tailwindCards: 'Cards TW',
+        photoCards: 'Photo Cards',
+        textCards: 'Text Cards',
+        postCards: 'Post Cards',
+        sidebarCards: 'Tabs',
+        banner: 'Banner',
+        support: 'Support',
+        embed: 'Embed'
+      }
+      const sectionName = item.headline || item.subhead || item.label || item.title || ''
+      const sectionNameShort = sectionName.match(/^.{24}\w*/)
+      const sectionLabel = sectionNameShort || sectionName || ''
+      const label = `${sectionLabel} (${templateNames[item._template]})`
+      return { ...item, label: label }
+    }
+    
+    let templates = {}
+    Object.keys(props.field.templates).forEach((key) => {
+      templates[key] = {
+        ...props.field.templates[key],
+        itemProps,
+      }
+    })
+    
+    return <BlocksFieldPlugin.Component {...props} field={{ ...props.field, templates }} />
+  },
+  __type: 'field',
+  name: "sectionListItems",
+}
 export const itemListFieldPlugin = {
   Component: (props) => {
     const field = {
