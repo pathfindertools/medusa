@@ -47,7 +47,7 @@ blocks:
     headline: What is it?
     subhead: ''
     body: >
-      Medusa enables to dapp to write access control rules in their own
+      Medusa enables dapp developers to write access control rules in their own
       application and rely on Medusa for delegating access to contents. Medusa
       relies on threshold cryptography to let smart contracts control a private
       key without anyone knowing it.
@@ -70,12 +70,11 @@ blocks:
     headline: Use Cases
     subhead: ''
     body: >
-      Medusa allows a smart contract to control a private key and decrypts
-      content for specific readers on demand: Alice can encrypt its latest
-      discovery, and define precily using its regular toolings the rules for
-      anyone to read it (holder of this NFT, stake X amount etc). At any point
-      in time in the future, Bob can get back an encrypted message that only him
-      can decrypt from Medusa.
+      Medusa allows a smart contract to control a private key and decrypt
+      content for specific readers on demand: Alice can encrypt their private
+      information, and precisely define the rules for anyone to read it
+      (holder of this NFT, stake X amount etc). If Bob fits Alice's access control policy,
+      Medusa will send him a private message with Alice's information that only he can decrypt.
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center items-start-vertical '
@@ -97,7 +96,7 @@ blocks:
     subhead: ''
     body: >
       Medusa is a smart contract that anyone can use in the stack of their app.
-      Developers don’t need any extra tooling to start using it.
+      Developers can easily integrate Medusa with a few lines of code using their existing toolset.
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
@@ -113,13 +112,13 @@ blocks:
     headline: Technology
     subhead: ''
     body: >
-      The technology Medusa is using is based on threshold cryptography which a
-      fantastic technique to decentralize any cryptographic operations. The
-      secret key is shared between multiple participants and no one knows it.
-      This allows to encrypt a message towards Medusa without no one being able
-      to reveal it. Medusa then re-encrypts this message to a specific recipient
-      dictacted by onchain events. Everything is backed by cryptographic proofs
-      to ensure integrity and privacy of the content.
+      Medusa leverages threshold cryptography to decentralize cryptographic operations.
+      The secret key is split into parts and shared between multiple participants in the Medusa network.
+      This allows a user to encrypt a message towards Medusa with the assurance that
+      only recipients with the correct permissions can reveal it.
+      Medusa achieves this by re-encrypting the private information to a specific recipient
+      dictated by onchain requests that abide by the application's access control policy.
+      Everything is backed by cryptographic proofs to ensure the integrity and privacy of the content.
     buttons:
       - label: Full Documentation Project
         link: /
@@ -139,12 +138,12 @@ blocks:
     headline: Status
     subhead: ''
     body: >
-      Medusa aims to expands its use cases, using the same technology, such as
-      timelock encryption (public decryption where everyone can read after a
-      specified time).
+      Medusa aims to expand with new use cases, using the same technology.
+      Timelock encryption, the ability for anyone to decrypt information after a specified time,
+      is a planned feature for Medusa's decentralized theshold cryptography network.
 
       This project is at an early stage but we have a demo working already on
-      Goerli ethereum testnet at
+      the Arbitrum Goerli testnet at
       [demo.medusanet.xyz](http://demo.medusanet.xyz), check it out!
     _template: feature
   - style:
@@ -162,7 +161,7 @@ blocks:
     subhead: ''
     body: >
       Medusa is being built by experts in threshold cryptography, inside the
-      cryptonet team at Protocol Labs, building decentralized protocol for the
+      cryptonet team at Protocol Labs, building decentralized protocols for the
       future of web3.
     _template: feature
   - style:
