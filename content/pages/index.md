@@ -101,12 +101,9 @@ blocks:
       Developers don’t need any extra tooling to start using it.
 
 
-      Dapps can use the deployed Medusa contract in side their contracts and are
-      good to go.
-
-
-      Clients can use the Typescrit Medusa SDK library to locally encrypt and
-      decrypt content but do not need to connect to any external endpoints!
+      Clients use the Typescrit Medusa SDK library to locally encrypt and
+      decrypt content without any different tooling or connecting to external
+      endpoints!
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
