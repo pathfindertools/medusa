@@ -71,13 +71,12 @@ blocks:
     headline: Use Cases
     subhead: ''
     body: >
-      Medusa is meant to sit below your app to delegate access to encrypted
-      contents: private mailing list, payable contents, NFT gated contents, etc.
+      Medusa sits below your stack to delegate access to encrypted contents:
+      private mailing list, payable contents, NFT gated contents, etc.
 
 
-      Alice can encrypt its latest discovery, submit the encryption to her smart
-      contract that defines precisely the rules for anyone to read it (holder of
-      this NFT, paid X eth...). &#x20;
+      The access control policy is to be defined by the app itself: holder of
+      particular NFT, paid X eth, staked in a pool, etc). &#x20;
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center items-start-vertical '
