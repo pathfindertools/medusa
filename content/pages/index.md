@@ -120,12 +120,12 @@ blocks:
     subhead: ''
     body: >
       The technology Medusa is using is based on threshold cryptography which a
-      fantastic technique to decentralize any cryptographic operations. The
-      secret key is shared between multiple participants and no one knows it.
-      This allows to encrypt a message towards Medusa without no one being able
-      to reveal it. Medusa then re-encrypts this message to a specific recipient
+      fantastic technique to decentralize any cryptographic operations. This
+      allows to encrypt a message towards Medusa without no one being able to
+      reveal it. Medusa then re-encrypts this message to a specific recipient
       dictacted by onchain events. Everything is backed by cryptographic proofs
-      to ensure integrity and privacy of the content.
+      to ensure integrity and privacy of the content. No other user can decrypt
+      a content unless the policy allows it.
     buttons:
       - label: Full Documentation Project
         link: /
