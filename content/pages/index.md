@@ -47,8 +47,8 @@ blocks:
     headline: What is it?
     subhead: ''
     body: >
-      Medusa enables to dapp to write their access control rules natively and
-      rely on Medusa for delegating access to encrypted contents.&#x20;
+      Medusa enables decentralized application to handle private content and
+      access using their own access control rules.
 
 
       Check out the demo on Arbitrum testnet !
@@ -71,13 +71,12 @@ blocks:
     headline: Use Cases
     subhead: ''
     body: >
-      Medusa is meant to sit below your app to delegate access to encrypted
-      contents: private mailing list, payable contents, NFT gated contents, etc.
+      Medusa sits below your stack to delegate access to encrypted contents:
+      private mailing list, payable contents, NFT gated contents, etc.
 
 
-      Alice can encrypt its latest discovery, submit the encryption to her smart
-      contract that defines precisely the rules for anyone to read it (holder of
-      this NFT, paid X eth...). &#x20;
+      The access control policy is to be defined by the app itself: holder of
+      particular NFT, paid X eth, staked in a pool, etc). &#x20;
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center items-start-vertical '
@@ -102,12 +101,9 @@ blocks:
       Developers don’t need any extra tooling to start using it.
 
 
-      Dapps can use the deployed Medusa contract in side their contracts and are
-      good to go.
-
-
-      Clients can use the Typescrit Medusa SDK library to locally encrypt and
-      decrypt content but do not need to connect to any external endpoints!
+      Clients use the Typescrit Medusa SDK library to locally encrypt and
+      decrypt content without any different tooling or connecting to external
+      endpoints!
     _template: feature
   - style:
       alignment: 'flex-col items-center items-start-vertical '
@@ -124,12 +120,12 @@ blocks:
     subhead: ''
     body: >
       The technology Medusa is using is based on threshold cryptography which a
-      fantastic technique to decentralize any cryptographic operations. The
-      secret key is shared between multiple participants and no one knows it.
-      This allows to encrypt a message towards Medusa without no one being able
-      to reveal it. Medusa then re-encrypts this message to a specific recipient
+      fantastic technique to decentralize any cryptographic operations. This
+      allows to encrypt a message towards Medusa without no one being able to
+      reveal it. Medusa then re-encrypts this message to a specific recipient
       dictacted by onchain events. Everything is backed by cryptographic proofs
-      to ensure integrity and privacy of the content.
+      to ensure integrity and privacy of the content. No other user can decrypt
+      a content unless the policy allows it.
     buttons:
       - label: Full Documentation Project
         link: /
