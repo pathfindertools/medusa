@@ -132,7 +132,7 @@ blocks:
       to ensure integrity and privacy of the content.
     buttons:
       - label: Full Documentation Project
-        link: 'https://doc.medusanet.xyz'
+        link: 'https://docs.medusanet.xyz'
         type: primary
     _template: feature
   - style:
