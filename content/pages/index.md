@@ -207,10 +207,10 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - headline: We're Hiring
+      - headline: GitHub
         subhead: ''
         text: ''
-        link: 'https://boards.greenhouse.io/protocollabs'
+        link: 'https://github.com/medusa-network'
       - headline: Contact Us
         subhead: ''
         text: ''
@@ -218,7 +218,7 @@ blocks:
       - headline: Join Us On Discord
         subhead: ''
         text: ''
-        link: 'https://discord.com/cryptonet'
+        link: 'https://discord.gg/cryptonet'
     _template: textCards
 meta:
   pageTitle: Medusa
