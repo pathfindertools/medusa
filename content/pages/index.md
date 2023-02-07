@@ -218,7 +218,7 @@ blocks:
       - headline: Join Us On Discord
         subhead: ''
         text: ''
-        link: 'https://discord.gg/cryptonet'
+        link: 'https://discord.gg/mGjVUwsVtJ'
     _template: textCards
 meta:
   pageTitle: Medusa
